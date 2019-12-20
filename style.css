@@ -4,3 +4,7 @@ body{
 }
 img{width:250px;
 }
+#jumbo1{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsAzgEuWke--wrU1FQTgHZVqp8ASQfNv8uzvzX2ax3rO6qPvVu&s);
+    background-size:cover;
+}

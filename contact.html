@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=100%, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel = "stylesheet" href="style.css">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=100%, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact</title>
 </head>
+
 <body>
-   <!--bootstrap navbar-->
-   <ul class="nav nav-tabs">
-        <li>
-                <h1><span class="badge badge-secondary">Jacob Tate</span></h1>
-        </li>
+  <!--bootstrap navbar-->
+  <ul class="nav nav-tabs">
+    <li>
+      <h1><span class="badge badge-secondary">Jacob Tate</span></h1>
+    </li>
     <li class="nav-item">
-      <a class="nav-link active" href="index.html">About</a>
+      <a class="nav-link " href="index.html">About</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="portfolio.html">portfolio</a>
@@ -23,7 +26,35 @@
     <li class="nav-item">
       <a class="nav-link" href="contact.html">contact</a>
     </li>
-    
+
   </ul>
+  <h1 class="display-4">Contact</h1>
+  <!--bootstrap input group (modified)-->
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon3">Name</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Your name here">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Email</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Email address here"
+      aria-label="Amount (to the nearest dollar)">
+    <div class="input-group-append">
+
+    </div>
+  </div>
+
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Message</span>
+    </div>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+  </div>
 </body>
+
 </html>
